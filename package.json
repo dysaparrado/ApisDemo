@@ -1,0 +1,29 @@
+{
+  "name": "webapidemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.4.1",
+    "mongoose-bcrypt": "^1.6.0",
+    "mongoose-string-query": "^0.2.5",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemailer": "^5.0.0"
+  },
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
